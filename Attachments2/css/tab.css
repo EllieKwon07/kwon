@@ -1,0 +1,49 @@
+.tab-bar {
+	position: fixed;
+	bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.tab-bar__tab {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	text-decoration: none;
+	color: #51403f;
+	text-align: center;
+}
+
+.tab-bar__tab i {
+	margin-bottom: 15px;
+	font-size: 30px;
+	width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 80px;
+    padding: 17px;
+    display: block;
+    background-color: #eeeeee;
+}
+
+.tab-bar__tab .tab-bar__title {
+	display: flex;
+	justify-content: center;
+	font-size: 15px;
+	color: black;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.tab-bar__tab-first {
+	margin-right: 20px 
+}
+
+.tab-bar__tab-last {
+	margin-left: 20px 
+}

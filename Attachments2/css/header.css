@@ -1,0 +1,26 @@
+.user__profile {
+	width: 100%;
+}
+
+.top__header {
+	color: black;
+	padding: 10px 10px 10px 10px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top__header .header__bottom {
+	position: fixed;
+}
+
+.top__header .profile__close {
+	width: 20px;
+	height: 20px;
+	margin-top: 30px;
+	margin-left: 0px;
+}
+
